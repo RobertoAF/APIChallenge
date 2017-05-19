@@ -98,6 +98,7 @@ Execution time: --- 0.6521950480018859 seconds ---
 <p>Challenge: Process an array of strings, ignore those containing a specific substring (prefix), and
 return an array with the remaining strings.</p>
 <p>Approach: I chose solution3 to process the array since it was slightly more efficient than solution2 at iterating through the list of strings and appending the selected items to a new list.</p>
+
 ```python
 def solution1(prefix, myList):
     return [item for item in myList if prefix != item[:len(prefix)]]
