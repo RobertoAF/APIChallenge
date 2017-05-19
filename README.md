@@ -10,7 +10,7 @@ I chose to implement this in Python 3, mainly due to its simplicty, readability 
 
 <h3>Step 2: Reverse</h3>
 <p>Challenge: Reverse a given string and return it.</p>
-<p>Approach: I formulated several solutions to the problem of reversing a string. Initially, I assumed that solution4 would be the most efficient. However, solution1 proved to be more efficient, which I ultimately implemented in my code to reverse the given string.</p>
+<p>Approach: I formulated several solutions to the problem of reversing a string. Initially, I assumed that solution4 would be the most efficient. However, solution1 proved to be more efficient in reversing the given string.</p>
 
 ```python
 def solution1(string):
@@ -49,11 +49,12 @@ Execution time: --- 13.587087155996414 seconds ---
 
 Solution4:  ecneics retupmoc ecneics retupmoc ecneics retupmoc
 Execution time: --- 2.4922737769957166 seconds ---
-
 ```
+
 <h3>Step 3: Haystack</h3>
 <p>Challenge: Find the index of a specific key in an array of strings and return it.</p>
 <p>Approach: I chose Python's index method to find the specific item in the array of strings (solution3). </p>
+
 ```python
 def solution1(needle, myList):  
     for index, item in enumerate(myList):
@@ -92,6 +93,7 @@ Solution4:
 Item found at index: 4
 Execution time: --- 0.6521950480018859 seconds ---
 ```
+
 <h3>Step 4: Prefix</h3>
 <p>Challenge: Process an array of strings, ignore those containing a specific substring (prefix), and
 return an array with the remaining strings.</p>
